@@ -1,4 +1,4 @@
-linuxsbas
+linuxcccc
 =========
 
 _The linux centralized command and control center installation script_
