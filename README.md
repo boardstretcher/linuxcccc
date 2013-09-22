@@ -21,7 +21,7 @@ _(based on small business of less than 20 linux servers)_
 * log store:            logstash/elasticsearch
 * log manager:          kibana
 * orchestration:        chef
-* backup server:        rsync
+* backup server:        rsync ;)
 * trending:           	observium
 * monitoring:		        icinga
 * ip tracking:		      opennetadmin
