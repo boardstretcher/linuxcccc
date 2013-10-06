@@ -1,10 +1,4 @@
 #!/bin/bash -x
-
-# to do:
-# port conflicts
-# finish installations
-# create portal homepage
-
 #
 # The linux centralized command and control center
 # 
@@ -24,13 +18,15 @@
 # dns/dhcp server:	dnsmasq
 # web server: 		apache2
 # scripting server: 	rundeck
-# log store: 		logstash/elasticsearch
 # log manager: 		kibana
 # orchestration: 	chef
 # trending:		observium
 # monitoring:		icinga
 # ip tracking:		opennetadmin
 # rack tracking:	rackmonkey
+
+# for installation of elasticsearch, mongodb and graylog -- please see this github repo:
+# https://github.com/vmanapat/graylog2installer/blob/master/install_graylog.sh
 
 # must be run as root
 	if [[ $EUID -ne 0 ]]; then
